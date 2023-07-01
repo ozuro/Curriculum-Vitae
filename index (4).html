@@ -7,684 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv-Alvaro PL</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="format-detection" content="telephone=no">
-    <meta http-equiv="Cache-Control" content="no-cache">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-
-
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
     <!-- ./fonts -->
-
-
-    <!-- css -->
-    <style type="text/css">
-        * {
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            box-sizing: border-box;
-        }
-
-        html {
-            height: 100%;
-        }
-
-        body {
-            width: 21cm;
-            height: 100%;
-            min-height: 29.7cm;
-            position: relative;
-            margin: 0;
-            padding: 0 0;
-            color: #333333;
-            line-height: 22px;
-            font: 12px "Source Sans Pro", Arial;
-            font-style: normal;
-        }
-
-        h1 {
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            font-style: normal;
-            font-size: 30px;
-            margin: 0;
-            padding: 16px 0 24px 0;
-            font-weight: 600;
-        }
-
-        h1 span {
-            position: relative;
-            font-style: normal;
-            display: inline;
-            margin-right: 3px;
-            padding: 0;
-        }
-
-        h2 {
-            text-transform: uppercase;
-            font-size: 17px;
-            font-weight: 600;
-            margin: 0;
-            padding: 0;
-        }
-
-        h3 {
-            font-size: 14px;
-            font-weight: 600;
-            margin: 0;
-            padding: 0;
-        }
-
-        p {
-            color: #4c4c4c;
-            line-height: 18px;
-            font-weight: 400;
-            margin: 0;
-            padding: 0;
-        }
-
-        hr {
-            border: none;
-            height: 1px;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-            background: #d2d2d2;
-        }
-
-        .sections {
-            left: 235px;
-            position: relative;
-            width: 535px;
-        }
-
-        .section {
-            position: relative;
-            width: 100%;
-            padding: 0;
-        }
-
-        .section p {
-            display: block;
-            font-style: normal;
-        }
-
-        .section:last-child {
-            border: none;
-        }
-
-        .section.section--summary {
-            top: -10px;
-            margin-bottom: 10px;
-        }
-
-        .section--title {
-            display: inline-block;
-            position: relative;
-            width: 100%;
-            z-index: 99;
-            margin: 0 0 0 0;
-            font-weight: 600;
-            background: #fff;
-            padding: 19px 0 10px 10px;
-            border-top: 1px solid #d2d2d2;
-            page-break-inside: avoid;
-        }
-
-        .section--title span {
-            display: inline-block;
-            margin-right: 2px;
-        }
-
-        .section--title-icon {
-            position: relative;
-            top: 0px;
-            display: inline-block;
-            height: 32px;
-            width: 32px;
-            margin-left: -15px;
-            margin-right: 10px;
-            border-radius: 50%;
-            border: 1px solid #2b2b38;
-        }
-
-        .section--title-icon svg {
-            position: relative;
-            top: 3px;
-            left: 4px;
-            height: 20px;
-            width: 20px;
-            fill: #2b2b38;
-        }
-
-        .section--title-icon.education svg {
-            top: 4px;
-            left: 4px;
-        }
-
-        .section--title-icon.course svg {
-            top: 5px;
-            left: 5px;
-        }
-
-        .section--title-icon.work svg {
-            top: 4px;
-            left: 5px;
-        }
-
-        .section--title-icon.internships svg {
-            top: 4px;
-            left: 5px;
-        }
-
-        .section--title-icon.certificate svg {
-            top: 4px;
-            left: 5px;
-        }
-
-        .section--title-icon.single-textarea svg {
-            top: 4px;
-            left: 5px;
-        }
-
-        .section--title-icon.extra-curricular svg {
-            top: 4px;
-            left: 5px;
-        }
-
-        .section--title-icon.characteristic svg {
-            top: 4px;
-            left: 5px;
-        }
-
-        .section--title-icon.skill svg {
-            top: 4px;
-            left: 5px;
-        }
-
-        .section--title-icon.hobby svg {
-            top: 5px;
-            left: 5px;
-        }
-
-        .section--title-icon.language svg {
-            top: 5px;
-            left: 5px;
-        }
-
-        .section--title-icon.reference svg {
-            top: 5px;
-            left: 5px;
-        }
-
-        .section--time-line-overlay {
-            position: absolute;
-            top: 0;
-            left: 10px;
-            height: 100%;
-            width: 1px;
-            background: #2b2b38;
-        }
-
-        .section--time-line {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 1px;
-            background: #2b2b38;
-        }
-
-        .section--time-line-hide-overlay {
-            display: none;
-            position: absolute;
-            left: -5px;
-            top: 25px;
-            width: 10px;
-            height: 100%;
-            background: #fff;
-            z-index: 9;
-        }
-
-        .section.references .section--time-line-dot {
-            top: 15px;
-        }
-
-        .section.references .section--date {
-            top: 10px;
-        }
-
-        .section.references .section--time-line-hide-overlay {
-            height: 95%;
-        }
-
-        .section--item:last-child {
-            background: #fff;
-            padding-bottom: 15px;
-        }
-
-        .section--item:last-child .section--time-line {
-            height: 30px;
-        }
-
-        .section--item:last-child .section--time-line-hide-overlay {
-            display: inline;
-        }
-
-        .section:last-child .section--item:last-child {
-            padding-bottom: 0;
-        }
-
-        /*.section:last-child .section--item:last-child .section--heading-group {
-            padding-bottom: 0;
-        }*/
-
-        .section--time-line-dot {
-            position: absolute;
-            left: -3px;
-            top: 18px;
-            height: 12px;
-            width: 10px;
-            z-index: 999;
-            /* fill: red; */
-            /* height: 9px;
-            width: 9px; */
-            /* border-radius: 50%; */
-            /* background: #fff; */
-            /* border: 1px solid #2b2b38; */
-            /* border: 0.1em solid #2b2b38; */
-        }
-
-        .section--heading-group {
-            display: block;
-            margin: 0;
-            padding: 0 0 6px 0;
-            page-break-inside: avoid !important;
-        }
-
-        .section--list {
-            display: block;
-            list-style: none;
-            padding: 0 0 0 10px;
-            margin: 0;
-        }
-
-        .section--list.skills {
-            margin-bottom: 20px;
-        }
-
-        .section--list.no-indent .section--item {
-            padding-left: 20px;
-        }
-
-        .section--item {
-            display: block;
-            position: relative;
-            list-style: none;
-            padding: 0 0 0 140px;
-            margin: 0;
-        }
-
-        .section--item.skills {
-            display: inline-block;
-            padding-top: 5px;
-            padding-bottom: 0px;
-            width: 100%;
-            margin: 0;
-            padding-left: 25px;
-            border-left: 1px solid #2b2b38;
-        }
-
-        .section--item.skills h3 {
-            font-size: 13px;
-        }
-
-        .section--item.skills:last-child {
-            padding-bottom: 0;
-        }
-
-        .skills--label {
-            display: inline-block;
-            width: 175px;
-            margin: 0 0 0 -5px;
-        }
-
-        .skills--stars {
-            display: inline-block;
-            position: relative;
-            top: 4px;
-        }
-
-        .skills--stars svg {
-            fill: #b1b1b1;
-        }
-
-        .skills--stars svg.active {
-            fill: #2b2b38;
-        }
-
-        .section--date {
-            position: absolute;
-            left: 20px;
-            top: 12px;
-            width: 120px;
-            font-size: 13px;
-            padding: 0;
-            margin: 0;
-        }
-
-        .section--heading {
-            display: block;
-            padding: 10px 0 0 0;
-            margin: 0;
-        }
-
-        .section--sub-heading {
-            display: block;
-            padding: 0;
-            margin: 0;
-            color: #a43d46;
-            font-size: 13px;
-        }
-
-        .section--content {
-            display: block;
-            padding: 0;
-            margin: 0;
-        }
-
-        .section--content p {
-            display: block;
-        }
-
-        .section--content ul,
-        .section--content ol {
-            page-break-inside: auto;
-            white-space: normal;
-            font-weight: 400;
-            list-style-position: outside;
-            color: #4c4c4c;
-            margin: 0;
-            padding: 0 0 0 16px;
-        }
-
-        .section--content ul li,
-        .section--content ol li {
-            line-height: 18px;
-        }
-
-        .section--content ul li {
-            list-style-type: disc;
-        }
-
-        .section--content ol {
-            padding-left: 14px;
-        }
-
-        .section--content-single-textarea {
-            padding-bottom: 10px;
-        }
-
-        .sidebar--bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 215px;
-            background: #2b2b38;
-            height: 1200px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-        }
-
-        .sidebar {
-            left: 0;
-            position: fixed;
-            z-index: 1;
-            color: #fff;
-            padding: 25px 0 0 14px;
-            width: 215px;
-            height: auto;
-        }
-
-        .sidebar--data {
-            display: block;
-        }
-
-        .sidebar--title {
-            display: inline-block;
-            font-size: 15px;
-            font-style: normal;
-            position: relative;
-            width: 88%;
-            padding: 20px 0 5px 0;
-            margin: 0 0 0 0;
-            page-break-inside: avoid;
-            letter-spacing: 0.08em;
-        }
-
-        .sidebar--title span {
-            display: inline-block;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            font-weight: 600;
-            font-style: normal;
-            padding-right: 2px;
-            z-index: 1;
-            /* background: #607d8b; */
-        }
-
-        .sidebar--title span:last-child {
-            padding-right: 10px;
-        }
-
-        .sidebar--title hr {
-            position: absolute;
-            left: 0;
-            bottom: 18px;
-            border: none;
-            height: 1px;
-            width: calc(100% - 10px);
-            background: #fff;
-        }
-
-        .sidebar--title svg {
-            position: relative;
-            top: 4px;
-            margin-right: 4px;
-        }
-
-        .sidebar--label {
-            font-weight: 600;
-        }
-
-        .sidebar--list {
-            display: block;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .sidebar--item {
-            display: block;
-            list-style: none;
-            position: relative;
-            font-size: 12px;
-            margin: 0;
-            padding: 0 5px 5px 0;
-        }
-
-        .sidebar--item.sidebar--item-personal {
-            padding: 0 5px 5px 23px;
-        }
-
-        .sidebar--item.sidebar--item-interest {
-            padding-left: 12px;
-            padding-bottom: 0;
-        }
-
-        .sidebar--item:last-child {
-            padding-bottom: 0;
-        }
-
-        .sidebar--icon-square {
-            display: inline-block;
-            height: 5px;
-            width: 5px;
-            position: absolute;
-            top: 9px;
-            margin: 0 5px 0 0;
-            background: #fff;
-            left: 0;
-        }
-
-        .sidebar--item-icon {
-            top: 2px;
-            left: -8px;
-            position: absolute;
-            fill: #fff;
-            height: 15px;
-        }
-
-        .sidebar--item-text {
-            line-height: 21px;
-        }
-
-        .sidebar--item-align-right {
-            float: right;
-            margin-right: 10px;
-        }
-
-        /*** START --- UPDATE COLOR ***/
-        .c--434a54 .sidebar--bg,
-        .c--434a54 .sidebar--title span {
-            background: #434a54 !important;
-        }
-
-        .c--434a54 .section--sub-heading {
-            color: #757575;
-        }
-
-        .c--434a54 .skills--stars svg {
-            fill: #434a54 !important;
-        }
-
-        .c--434a54 .skills--stars svg:not(.active) {
-            fill: #b4b7bb !important;
-        }
-
-        .c--da4453 .sidebar--bg,
-        .c--da4453 .sidebar--title span {
-            background: #da4453 !important;
-        }
-
-        .c--da4453 .section--sub-heading {
-            color: #a43d46;
-        }
-
-        .c--da4453 .skills--stars svg {
-            fill: #da4453 !important;
-        }
-
-        .c--da4453 .skills--stars svg:not(.active) {
-            fill: #f0b4ba !important;
-        }
-
-        .c--3f6592 .sidebar--bg,
-        .c--3f6592 .sidebar--title span {
-            background: #3b2525 !important;
-            /* style="background-color: #3b2525;" */
-        }
-
-        .c--3f6592 .section--sub-heading {
-            color: #3f6592;
-        }
-
-        .c--3f6592 .skills--stars svg {
-            fill: #3f6592 !important;
-        }
-
-        .c--3f6592 .skills--stars svg:not(.active) {
-            fill: #b2c2d4 !important;
-        }
-
-        .c--f1b230 .sidebar--bg,
-        .c--f1b230 .sidebar--title span {
-            background: #f1b230 !important;
-        }
-
-        .c--f1b230 .section--sub-heading {
-            color: #986c14;
-        }
-
-        .c--f1b230 .skills--stars svg {
-            fill: #f1b230 !important;
-        }
-
-        .c--f1b230 .skills--stars svg:not(.active) {
-            fill: #f9e0b0 !important;
-        }
-
-        .c--37bc9b .sidebar--bg,
-        .c--37bc9b .sidebar--title span {
-            background: #37bc9b !important;
-        }
-
-        .c--37bc9b .section--sub-heading {
-            color: #187d64;
-        }
-
-        .c--37bc9b .skills--stars svg {
-            fill: #37bc9b !important;
-        }
-
-        .c--37bc9b .skills--stars svg:not(.active) {
-            fill: #b0e4d7 !important;
-        }
-
-        /*** END --- UPDATE COLOR ***/
-
-        html[lang=tr] body {
-            font-family: "Helvetica";
-        }
-
-        html[lang=tr] .section--date {
-            font-size: 12px;
-            width: 130px;
-        }
-
-        html[lang=tr] .sidebar--item {
-            line-height: 18px;
-        }
-
-        .foto {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* margin-right: 10px; */
-        }
-
-        img {
-            width: 70%;
-            /* height: 80%; */
-            border-radius: 3px;
-        }
-
-        /*strong { white-space: nowrap; }*/
-    </style>
-
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body class="c--3f6592" style="overflow:x hidden !important;">
 
     <div class="sidebar--bg"></div>
 
-    <aside class="sidebar" style="background-color: #3b2525;">
+    <aside class="sidebar">
 
-        <div class="foto">
+        <!-- <div class="foto"> -->
         <!-- <img src="foto.jpg" alt="foto-cv"> -->
     </div>
 
@@ -694,7 +29,6 @@
         <div class="sidebar--data">
             <h2 class="sidebar--title">
                 <span>Personal</span>
-
             </h2>
 
             <ul class="sidebar--list">
@@ -750,17 +84,7 @@
 
 
 
-                <li class="sidebar--item sidebar--item-personal">
-                    <svg class="sidebar--item-icon" fill="#000000" height="24" viewBox="0 0 24 24" width="24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 0h24v24H0V0z" fill="none"></path>
-                        <path
-                            d="M5.5 22v-7.5H4V9c0-1.1.9-2 2-2h3c1.1 0 2 .9 2 2v5.5H9.5V22h-4zM18 22v-6h3l-2.54-7.63C18.18 7.55 17.42 7 16.56 7h-.12c-.86 0-1.63.55-1.9 1.37L12 16h3v6h3zM7.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm9 0c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2z">
-                        </path>
-                    </svg>
-                    <span class="sidebar--label">Género</span><br>
-                    Hombre
-                </li>
+               
 
                 <li class="sidebar--item sidebar--item-personal">
                     <svg class="sidebar--item-icon" fill="#000000" height="24" viewBox="0 0 24 24" width="24"
@@ -779,7 +103,8 @@
 
 
                     <span class="sidebar--label">Web</span><br>
-                    https://www.alvaropacompia.com
+                    <a class="link" href="https://www.alvaropacompia.com"> https://www.alvaropacompia.com</a>
+                   
                 </li>
 
 
@@ -792,7 +117,8 @@
                         </path>
                     </svg>
                     <span class="sidebar--label">LinkedIn</span><br>
-                    https://www.linkedin.com/in/alvaro-pacompia-lerma-54521b177/
+                    <a  class="link" href="https://www.linkedin.com/in/alvaro-pacompia-lerma-54521b177/">www.linkedin.com/in/alvaro-pacompia-lerma-54521b177/</a>
+                    
                 </li>
 
             </ul>
@@ -841,6 +167,37 @@
             </ul>
 
         </div>
+<BR></BR>
+        <!-- <div class="sidebar--data">
+            <h2 class="sidebar--title">
+                <span>HABILIDADES BLANDAS</span>
+            </h2>
+
+            <ul class="sidebar--list">
+                <li class="sidebar--item">
+                    <span class="sidebar--label">Trabajo en Equipo</span>
+                 
+                </li>
+                <li class="sidebar--item">
+                    <span class="sidebar--label">Empatico</span>
+                 
+                </li>
+
+                <li class="sidebar--item">
+                    <span class="sidebar--label">Responsable</span>
+                 
+                </li>
+                <li class="sidebar--item">
+                    <span class="sidebar--label">Autodidacta</span>
+                 
+                </li>
+
+
+
+
+            </ul>
+
+        </div> -->
 
 
     </aside>
@@ -993,11 +350,11 @@
                         <p>Desarrollo de aplicacion Movil Android con framework Flutter, 
                             restructuracion de codigo fuente,
                             nuevas funcionalidades. </p>
-                        <p>Para la Radio Emisora Onda Azul y Radio Emisora Carabaya</p>
+                        <p class="area"><svg xmlns="http://www.w3.org/2000/svg " class="ic" height="0.5rem" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg>Radio Emisora Onda Azul Puno y Radio Emisora Carabaya Puno</p>
                         <br>
                         <p>Desarrollo del sistema Web Html, Boostrap, PHP, JQUERY y MYSQL, Frontend y Backend, mantenimiento,restructuracion de codigo
                             fuente y nuevas funcionalidades, y creacion de nuevas tablas de Base de datos </p>
-                        <p>Sistema de Operaciones - Always Travel S.A.C </p>
+                        <p class="area"><svg xmlns="http://www.w3.org/2000/svg " class="ic" height="0.5rem" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg>Sistema de Operaciones - Always Travel S.A.C </p>
                     </div>
                 </li>
                 <li class="section--item">
@@ -1017,8 +374,10 @@
                         </div>
                     </div>
                     <div class="section--content">
-                        <p>Desarrollo de sistema web HTML, CSS, Javascript y MYSQL, donde se hizo la parte del frontend y Backend </p>
-                        <p> Area Gestor Social, Obra de saneamiento Basicos - Capachica-Puno</p>
+                        <p>Creacion y diseño de la base datos  en mysql.</p>
+                        <p>Desarrollo de sistema web para la gestion de registro de 456 beneficiarios como datos personales, tipo de UBS, ubicacion, reuniones, charlas, encuestas, visitas domiciliarias, participaciones.</p>
+                        <p>Reportes de la informacion ingresada en graficos como tambien en archivos pdf</p>
+                        <p class="area"> <svg xmlns="http://www.w3.org/2000/svg " class="ic" height="0.5rem" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg>Area Gestor Social, Obra de saneamiento Basicos - Capachica-Puno</p>
                     </div>
                 </li>
                 <li class="section--item">
@@ -1037,8 +396,9 @@
                             CONSORCIO CARBAO - ELECTRO PUNO S.A.A </div>
                     </div>
                     <div class="section--content">
-                        <p>Manejo de infomacion con mysql realizando consultas y creacion de nuevas tablas y desarrollo de mapas </p>
-                        <P>Area de Gestor Social, y Topografia</P>
+                        <p>Creacion y diseño de base de datos relacionales, desarrollo frontend con MVC  para el registro de informacion de suministros de red electrica, de usuarios, estructuras y coordenadas </p>
+                        <p>Visualizacion en graficos en Power BI de datos registrados en excel </p>
+                        <p class="area"><svg xmlns="http://www.w3.org/2000/svg " class="ic" height="0.5rem" viewBox="0 0 256 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg>Area de Gestor Social, y Topografia</P>
                     </div>
                 </li>
             </ol>
@@ -1049,13 +409,7 @@
             <div class="section--title">
                 <h2>
                     <i class="section--title-icon work">
-                        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0h24v24H0zm10 5h4v2h-4zm0 0h4v2h-4z" fill="none"></path>
-                            <path
-                                d="M10 16v-1H3.01L3 19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-4h-7v1h-4zm10-9h-4.01V5l-2-2h-4l-2 2v2H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-2h4v2h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm-6 0h-4V5h4v2z">
-                            </path>
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1rem" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/></svg>
                     </i>
 
                    PROYECTOS PROPIOS 
@@ -1063,83 +417,94 @@
                 </h2>
             </div>
 
-            <div class="section--time-line-overlay"></div>
+            <!-- <div class="section--time-line-overlay"></div> -->
 
             <ol class="section--list">
             
-                <li class="section--item">
-                    <div class="section--time-line">
-                        <svg class="section--time-line-dot">
-                            <circle cx="4" cy="4" r="3" stroke="black" stroke-width="1" fill="white"></circle>
-                        </svg>
-                    </div>
+                <li >
+                    
                     <!-- <div class="section--time-line-hide-overlay"></div> -->
-                    <div class="section--heading-group">
-                        <div class="section--date"> 2023</div>
-                        <div class="section--heading">
-                            <h3>Blog de Cafe </h3>
+                    <div class="titlePropio">
+                        
+                        <div > 
+                            
+                            
+                            <h3 >
+                                <svg  class="ic" xmlns="http://www.w3.org/2000/svg" height="0.6rem" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M413.5 237.5c-28.2 4.8-58.2-3.6-80-25.4l-38.1-38.1C280.4 159 272 138.8 272 117.6V105.5L192.3 62c-5.3-2.9-8.6-8.6-8.3-14.7s3.9-11.5 9.5-14l47.2-21C259.1 4.2 279 0 299.2 0h18.1c36.7 0 72 14 98.7 39.1l44.6 42c24.2 22.8 33.2 55.7 26.6 86L503 183l8-8c9.4-9.4 24.6-9.4 33.9 0l24 24c9.4 9.4 9.4 24.6 0 33.9l-88 88c-9.4 9.4-24.6 9.4-33.9 0l-24-24c-9.4-9.4-9.4-24.6 0-33.9l8-8-17.5-17.5zM27.4 377.1L260.9 182.6c3.5 4.9 7.5 9.6 11.8 14l38.1 38.1c6 6 12.4 11.2 19.2 15.7L134.9 484.6c-14.5 17.4-36 27.4-58.6 27.4C34.1 512 0 477.8 0 435.7c0-22.6 10.1-44.1 27.4-58.6z"/></svg>
+
+                                Blog Cafe</h3>
                         </div>
+                      
                         <div class="section--sub-heading">
-                            Desarrollado con HTML, CSS y reponsive y buenas practicas
+                            <p>Desarrollado con HTML, CSS, reponsive y buenas practicas</p>
                         </div>
                     </div>
                 
                 </li>
-                <li class="section--item">
-                    <div class="section--time-line">
-                        <svg class="section--time-line-dot">
-                            <circle cx="4" cy="4" r="3" stroke="black" stroke-width="1" fill="white"></circle>
-                        </svg>
-                    </div>
-                    <div class="section--time-line-hide-overlay"></div>
-                    <div class="section--heading-group">
-                        <div class="section--date"> 2023</div>
-                        <div class="section--heading">
-                            <h3>Tienda de shirts</h3>
+
+                <hr>
+
+                
+                <li class="section--item2">
+                  
+                    <!-- <div class="section--time-line-hide-overlay"></div> -->
+                    <div class="titlePropio">
+                        <div > 
+
+                            <h3 >
+                                <svg  class="ic" xmlns="http://www.w3.org/2000/svg" height="0.6rem" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M413.5 237.5c-28.2 4.8-58.2-3.6-80-25.4l-38.1-38.1C280.4 159 272 138.8 272 117.6V105.5L192.3 62c-5.3-2.9-8.6-8.6-8.3-14.7s3.9-11.5 9.5-14l47.2-21C259.1 4.2 279 0 299.2 0h18.1c36.7 0 72 14 98.7 39.1l44.6 42c24.2 22.8 33.2 55.7 26.6 86L503 183l8-8c9.4-9.4 24.6-9.4 33.9 0l24 24c9.4 9.4 9.4 24.6 0 33.9l-88 88c-9.4 9.4-24.6 9.4-33.9 0l-24-24c-9.4-9.4-9.4-24.6 0-33.9l8-8-17.5-17.5zM27.4 377.1L260.9 182.6c3.5 4.9 7.5 9.6 11.8 14l38.1 38.1c6 6 12.4 11.2 19.2 15.7L134.9 484.6c-14.5 17.4-36 27.4-58.6 27.4C34.1 512 0 477.8 0 435.7c0-22.6 10.1-44.1 27.4-58.6z"/></svg>
+                                Tienda de shirts</h3>
                         </div>
+                      
                         <div class="section--sub-heading">
-                            Desarrollado con HTML, CSS, reponsive y buenas practicas</div>
-                    </div>
-              
-                </li>
-                <li class="section--item">
-                    <div class="section--time-line">
-                        <svg class="section--time-line-dot">
-                            <circle cx="4" cy="4" r="3" stroke="black" stroke-width="1" fill="white"></circle>
-                        </svg>
-                    </div>
-                    <div class="section--time-line-hide-overlay"></div>
-                    <div class="section--heading-group">
-                        <div class="section--date"> 2023</div>
-                        <div class="section--heading">
-                            <h3>Pagina de Festival de Musica</h3>
+                            <p>Desarrollado con HTML, CSS, reponsive y buenas practicas</p>
                         </div>
-                        <div class="section--sub-heading">
-                            Desarrollado con HTML, SASS, javascript, reponsive y buenas practicas</div>
                     </div>
-              
+                
                 </li>
-                <li class="section--item">
-                    <div class="section--time-line">
-                        <svg class="section--time-line-dot">
-                            <circle cx="4" cy="4" r="3" stroke="black" stroke-width="1" fill="white"></circle>
-                        </svg>
-                    </div>
-                    <div class="section--time-line-hide-overlay"></div>
-                    <div class="section--heading-group">
-                        <div class="section--date">2023</div>
-                        <div class="section--heading">
-                            <h3>Presupuesto de Compras</h3>
+
+                <hr>
+
+                
+                <li class="section--item2">
+                   
+                    <!-- <div class="section--time-line-hide-overlay"></div> -->
+                    <div class="titlePropio">
+                        <div > 
+                            <h3 >
+                                <svg  class="ic" xmlns="http://www.w3.org/2000/svg" height="0.6rem" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M413.5 237.5c-28.2 4.8-58.2-3.6-80-25.4l-38.1-38.1C280.4 159 272 138.8 272 117.6V105.5L192.3 62c-5.3-2.9-8.6-8.6-8.3-14.7s3.9-11.5 9.5-14l47.2-21C259.1 4.2 279 0 299.2 0h18.1c36.7 0 72 14 98.7 39.1l44.6 42c24.2 22.8 33.2 55.7 26.6 86L503 183l8-8c9.4-9.4 24.6-9.4 33.9 0l24 24c9.4 9.4 9.4 24.6 0 33.9l-88 88c-9.4 9.4-24.6 9.4-33.9 0l-24-24c-9.4-9.4-9.4-24.6 0-33.9l8-8-17.5-17.5zM27.4 377.1L260.9 182.6c3.5 4.9 7.5 9.6 11.8 14l38.1 38.1c6 6 12.4 11.2 19.2 15.7L134.9 484.6c-14.5 17.4-36 27.4-58.6 27.4C34.1 512 0 477.8 0 435.7c0-22.6 10.1-44.1 27.4-58.6z"/></svg>
+                                Festival de Musica</h3>
                         </div>
+                      
                         <div class="section--sub-heading">
-                            Desarrollado HTML, CSS, TYPESCRIPT Y ANGULAR </div>
+                            <p>Desarrollado con HTML, SASS, javascript y reponsive </p>
+                        </div>
                     </div>
-             
+                
                 </li>
+                <hr>
+                
+                <li class="section--item2">
+                 
+                    <!-- <div class="section--time-line-hide-overlay"></div> -->
+                    <div class="titlePropio">
+                        <div > 
+                            <h3 >
+                                <svg  class="ic" xmlns="http://www.w3.org/2000/svg" height="0.6rem" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M413.5 237.5c-28.2 4.8-58.2-3.6-80-25.4l-38.1-38.1C280.4 159 272 138.8 272 117.6V105.5L192.3 62c-5.3-2.9-8.6-8.6-8.3-14.7s3.9-11.5 9.5-14l47.2-21C259.1 4.2 279 0 299.2 0h18.1c36.7 0 72 14 98.7 39.1l44.6 42c24.2 22.8 33.2 55.7 26.6 86L503 183l8-8c9.4-9.4 24.6-9.4 33.9 0l24 24c9.4 9.4 9.4 24.6 0 33.9l-88 88c-9.4 9.4-24.6 9.4-33.9 0l-24-24c-9.4-9.4-9.4-24.6 0-33.9l8-8-17.5-17.5zM27.4 377.1L260.9 182.6c3.5 4.9 7.5 9.6 11.8 14l38.1 38.1c6 6 12.4 11.2 19.2 15.7L134.9 484.6c-14.5 17.4-36 27.4-58.6 27.4C34.1 512 0 477.8 0 435.7c0-22.6 10.1-44.1 27.4-58.6z"/></svg>
+                                Presupuesto de compras</h3>
+                        </div>
+                      
+                        <div class="section--sub-heading">
+                            <p>Desarrollado HTML,BOOSTRAP, TYPESCRIPT Y ANGULAR</p>
+                        </div>
+                    </div>
+                
+                </li>
+               
             </ol>
         </div>
 
-
+<br>
 
 
 
@@ -1208,11 +573,13 @@
 
                 </div>
                 <div class="fre">
-                    <h3>Base de Datos</h3>
+                    <h3>Backend</h3>
                     <br>
                     <li>Mysql</li>
                     <li>Sql</li>
-                    <li>access</li>
+                    <li>node</li>
+                    <li>express</li>
+                   
 
 
 
